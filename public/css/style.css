@@ -1,0 +1,73 @@
+.board {
+  border: 1px solid white;
+}
+
+html {
+  font-size: 10px;
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  font-family: 'Trebuchet MS',Helvetica,sans-serif;
+  margin: 0px; /* To eliminate the white border  */
+  background: #354044;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  font-size: 2.0rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+main {
+  position: relative;
+  top: 100px;
+  width: 100vw;
+}
+
+.container {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 49%;
+}
+
+.description {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  color: #f8fafa;
+  font-size: 1.5rem;
+}
+
+#cowport {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  height: 500px;
+  color: #f8fafa;
+  font-size: 1.5rem;
+}
