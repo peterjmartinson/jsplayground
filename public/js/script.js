@@ -254,7 +254,7 @@ Terrarium.prototype.listSurroundings = function(center) {
     if (grid.isInside(place))
       result[name] = characterFromElement(grid.valueAt(place));
     else
-      reslut[name] = "#";
+      result[name] = "#";
   });
   return result;
 };
