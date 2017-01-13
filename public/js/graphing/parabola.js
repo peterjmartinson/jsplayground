@@ -1,0 +1,1 @@
+var outputGraph = new ExternalHTML();
